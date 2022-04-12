@@ -1,0 +1,35 @@
+body{
+    background-color: #154360;
+}
+
+button{
+    background-color: pink;
+}
+
+h1{
+    background-color: #154360;
+    color: #1ABC9C;
+}
+
+center {
+    background-color: #154360;
+    color: #1ABC9C;
+}
+
+.col{
+    margin-top: 100px;
+    background-color: #154360;
+}
+
+.row{
+    background-color: #154360;
+}
+
+.left, .right{
+    /* margin-left: 20px; */
+    font-family: cursive;
+    padding-left: 100px;
+    background-color: #154360;
+    height: 100vh;
+    width: 100%;
+}

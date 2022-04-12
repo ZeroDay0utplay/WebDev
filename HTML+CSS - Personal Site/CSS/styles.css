@@ -1,0 +1,30 @@
+body{
+    background-color: #96CEB4;
+}
+
+hr{
+    border-top-color: black;
+    border-style: none;
+    border-top-style: dashed;
+    border-width: 5px;
+}
+
+h1{
+    color: #1A374D;
+}
+
+h3{
+    color:  rebeccapurple;
+}
+
+img:hover{
+    background-color: gold;
+}
+
+.zdo{
+    border-radius: 100%;
+}
+
+#ez{
+    color: red;
+}

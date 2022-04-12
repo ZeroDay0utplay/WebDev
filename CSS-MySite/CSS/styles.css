@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+
+.orginal{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 10px solid;
+    padding: 20px;
+}
+
+.middle-container{
+    margin-left: 250px;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 20px solid;
+}
+
+.bottom-container{
+    margin-left: 480px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+}
