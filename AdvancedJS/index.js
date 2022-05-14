@@ -1,11 +1,11 @@
 var soundsDICT = {
-    "w": "1",
-    "a": "2",
-    "s" : "3",
-    "d" : "4",
-    "j" : "5",
-    "k" : "6", 
-    "l" : "7"
+    "a": "1",
+    "z": "2",
+    "e" : "3",
+    "r" : "4",
+    "t" : "5",
+    "y" : "6", 
+    "u" : "7"
 };
   
 
@@ -14,6 +14,7 @@ document.addEventListener("keydown", function(event){
     audio.play();
     makeAnimation(event.key);
 })
+
 
 function makeAnimation(key){
     var actibeBTN = document.querySelector("."+key); 
