@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.set("view engine", "ejs");
 
-var items = [];
+let items = [];
 
 app.get("/", (req, res)=>{
     res.render("main", {newListItems: items});
@@ -15,7 +15,7 @@ app.get("/", (req, res)=>{
 
 
 app.post("/", (req, res)=>{
-    var item = req.body.newItem;
+    let item = req.body.newItem;
     items.push(item);
     res.redirect("/");
 })
